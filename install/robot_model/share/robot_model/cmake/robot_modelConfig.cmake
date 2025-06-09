@@ -1,0 +1,1 @@
+/home/hoanglong/myrobot_ws/build/robot_model/ament_cmake_core/robot_modelConfig.cmake

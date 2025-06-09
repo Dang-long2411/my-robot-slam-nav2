@@ -1,0 +1,117 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hoanglong/myrobot_ws/src/build/robot_model
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/config/drive_bot.rviz
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/config/gazebo_params.yaml
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/config/mapper_params_online_async.yaml
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/config/my_controllers.yaml
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/config/nav2_params.yaml
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/config/twist_mux.yaml
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/description/gazebo_control.xacro
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/description/inertial_macros.xacro
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/description/lidar.xacro
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/description/robot.urdf.xacro
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/description/robot_core.xacro
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/description/ros2_control.xacro
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/launch/automated_nav_test.py
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/launch/comparision.py
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/launch/expected_vs_actual_plot.png
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/launch/extract_gt_from_tf.py
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/launch/extract_trajectory.py
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/launch/generate_stats.py
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/launch/navigation_accuracy_results.csv
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/launch/navigation_stats_summary.csv
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/launch/navigation_test_results.csv
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/launch/plot.py
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/launch/plot2.py
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/launch/plots/navigation_combined_plot.png
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/launch/plots/navigation_error_plot.png
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/launch/plots/time_to_goal_plot.png
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/launch/rsp.launch.py
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/launch/rsp_sim.launch.py
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/launch/scale_cmd_vel.py
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/launch/test.py
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/Map/model.config
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/Map/model.sdf
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/empty.world
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/hospital.world
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/house.world
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map.world
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1.world
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test1.data
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test1.pgm
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test1.posegraph
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test1.yaml
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test2.data
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test2.pgm
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test2.posegraph
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test2.yaml
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test3.data
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test3.pgm
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test3.posegraph
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test3.yaml
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test4.data
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test4.pgm
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test4.posegraph
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test4.yaml
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test5.data
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test5.pgm
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test5.posegraph
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test5.yaml
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test6.data
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test6.pgm
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test6.posegraph
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test6.yaml
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test7.data
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test7.pgm
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test7.posegraph
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test7.yaml
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test8.data
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test8.pgm
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test8.posegraph
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test8.yaml
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test9.data
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test9.pgm
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test9.posegraph
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map1_test9.yaml
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/map2.world
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/worlds/obstacle.world
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/ament_index/resource_index/package_run_dependencies/robot_model
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/ament_index/resource_index/parent_prefix_path/robot_model
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/environment/ament_prefix_path.sh
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/environment/ament_prefix_path.dsv
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/environment/path.sh
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/environment/path.dsv
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/local_setup.bash
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/local_setup.sh
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/local_setup.zsh
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/local_setup.dsv
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/package.dsv
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/ament_index/resource_index/packages/robot_model
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/cmake/robot_modelConfig.cmake
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/cmake/robot_modelConfig-version.cmake
+-- Symlinking: /home/hoanglong/myrobot_ws/src/install/robot_model/share/robot_model/package.xml

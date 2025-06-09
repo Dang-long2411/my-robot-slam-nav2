@@ -1,0 +1,52 @@
+[0.018s] Invoking command in '/home/hoanglong/myrobot_ws/build/robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoanglong/turtlebot3_ws/install/turtlebot3_teleop:/home/hoanglong/turtlebot3_ws/install/turtlebot3_example:/home/hoanglong/my_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake /home/hoanglong/myrobot_ws/src/robot_model -DCMAKE_INSTALL_PREFIX=/home/hoanglong/myrobot_ws/install/robot_model
+[0.051s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.172s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.197s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.248s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.254s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.265s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.283s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.302s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.355s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.360s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.476s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.552s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.589s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.591s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.665s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.666s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.667s] -- Added test 'lint_cmake' to check CMake code style
+[0.668s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.670s] -- Added test 'xmllint' to check XML markup files
+[0.673s] -- Configuring done
+[0.681s] -- Generating done
+[0.683s] -- Build files have been written to: /home/hoanglong/myrobot_ws/build/robot_model
+[0.692s] Invoked command in '/home/hoanglong/myrobot_ws/build/robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoanglong/turtlebot3_ws/install/turtlebot3_teleop:/home/hoanglong/turtlebot3_ws/install/turtlebot3_example:/home/hoanglong/my_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake /home/hoanglong/myrobot_ws/src/robot_model -DCMAKE_INSTALL_PREFIX=/home/hoanglong/myrobot_ws/install/robot_model
+[0.693s] Invoking command in '/home/hoanglong/myrobot_ws/build/robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoanglong/turtlebot3_ws/install/turtlebot3_teleop:/home/hoanglong/turtlebot3_ws/install/turtlebot3_example:/home/hoanglong/my_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --build /home/hoanglong/myrobot_ws/build/robot_model -- -j2 -l2
+[0.735s] Invoked command in '/home/hoanglong/myrobot_ws/build/robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoanglong/turtlebot3_ws/install/turtlebot3_teleop:/home/hoanglong/turtlebot3_ws/install/turtlebot3_example:/home/hoanglong/my_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --build /home/hoanglong/myrobot_ws/build/robot_model -- -j2 -l2
+[0.746s] Invoking command in '/home/hoanglong/myrobot_ws/build/robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoanglong/turtlebot3_ws/install/turtlebot3_teleop:/home/hoanglong/turtlebot3_ws/install/turtlebot3_example:/home/hoanglong/my_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --install /home/hoanglong/myrobot_ws/build/robot_model
+[0.755s] -- Install configuration: ""
+[0.755s] -- Execute custom install script
+[0.755s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model//launch/rsp.launch.py
+[0.755s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model//launch/rsp_sim.launch.py
+[0.756s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model//description/gazebo_control.xacro
+[0.756s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model//description/inertial_macros.xacro
+[0.756s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model//description/lidar.xacro
+[0.756s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model//description/robot.urdf.xacro
+[0.756s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model//description/robot_core.xacro
+[0.756s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/ament_index/resource_index/package_run_dependencies/robot_model
+[0.756s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/ament_index/resource_index/parent_prefix_path/robot_model
+[0.756s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/environment/ament_prefix_path.sh
+[0.756s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/environment/ament_prefix_path.dsv
+[0.757s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/environment/path.sh
+[0.757s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/environment/path.dsv
+[0.757s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/local_setup.bash
+[0.757s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/local_setup.sh
+[0.757s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/local_setup.zsh
+[0.757s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/local_setup.dsv
+[0.757s] -- Symlinking: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/package.dsv
+[0.767s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/ament_index/resource_index/packages/robot_model
+[0.768s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/cmake/robot_modelConfig.cmake
+[0.768s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/cmake/robot_modelConfig-version.cmake
+[0.768s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/package.xml
+[0.768s] Invoked command in '/home/hoanglong/myrobot_ws/build/robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoanglong/turtlebot3_ws/install/turtlebot3_teleop:/home/hoanglong/turtlebot3_ws/install/turtlebot3_example:/home/hoanglong/my_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --install /home/hoanglong/myrobot_ws/build/robot_model

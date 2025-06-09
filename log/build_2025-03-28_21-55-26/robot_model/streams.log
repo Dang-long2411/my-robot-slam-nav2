@@ -1,0 +1,28 @@
+[0.018s] Invoking command in '/home/hoanglong/myrobot_ws/build/robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoanglong/turtlebot3_ws/install/turtlebot3_teleop:/home/hoanglong/turtlebot3_ws/install/turtlebot3_example:/home/hoanglong/my_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --build /home/hoanglong/myrobot_ws/build/robot_model -- -j2 -l2
+[0.099s] Invoked command in '/home/hoanglong/myrobot_ws/build/robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoanglong/turtlebot3_ws/install/turtlebot3_teleop:/home/hoanglong/turtlebot3_ws/install/turtlebot3_example:/home/hoanglong/my_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --build /home/hoanglong/myrobot_ws/build/robot_model -- -j2 -l2
+[0.114s] Invoking command in '/home/hoanglong/myrobot_ws/build/robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoanglong/turtlebot3_ws/install/turtlebot3_teleop:/home/hoanglong/turtlebot3_ws/install/turtlebot3_example:/home/hoanglong/my_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --install /home/hoanglong/myrobot_ws/build/robot_model
+[0.124s] -- Install configuration: ""
+[0.126s] -- Execute custom install script
+[0.128s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model//launch/rsp.launch.py
+[0.128s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model//launch/rsp_sim.launch.py
+[0.128s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model//description/gazebo_control.xacro
+[0.128s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model//description/inertial_macros.xacro
+[0.128s] -- Symlinking: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model//description/lidar.xacro
+[0.138s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model//description/robot.urdf.xacro
+[0.138s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model//description/robot_core.xacro
+[0.138s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/ament_index/resource_index/package_run_dependencies/robot_model
+[0.140s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/ament_index/resource_index/parent_prefix_path/robot_model
+[0.140s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/environment/ament_prefix_path.sh
+[0.140s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/environment/ament_prefix_path.dsv
+[0.140s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/environment/path.sh
+[0.140s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/environment/path.dsv
+[0.140s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/local_setup.bash
+[0.141s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/local_setup.sh
+[0.141s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/local_setup.zsh
+[0.141s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/local_setup.dsv
+[0.141s] -- Symlinking: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/package.dsv
+[0.151s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/ament_index/resource_index/packages/robot_model
+[0.151s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/cmake/robot_modelConfig.cmake
+[0.151s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/cmake/robot_modelConfig-version.cmake
+[0.153s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/package.xml
+[0.153s] Invoked command in '/home/hoanglong/myrobot_ws/build/robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoanglong/turtlebot3_ws/install/turtlebot3_teleop:/home/hoanglong/turtlebot3_ws/install/turtlebot3_example:/home/hoanglong/my_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --install /home/hoanglong/myrobot_ws/build/robot_model

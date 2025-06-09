@@ -1,0 +1,1 @@
+/home/hoanglong/myrobot_ws/src/robot_model/launch/automated_nav_test.py

@@ -1,0 +1,82 @@
+[0.014s] Invoking command in '/home/hoanglong/myrobot_ws/build/robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoanglong/turtlebot3_ws/install/turtlebot3_teleop:/home/hoanglong/turtlebot3_ws/install/turtlebot3_example:/home/hoanglong/my_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake /home/hoanglong/myrobot_ws/src/robot_model -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hoanglong/myrobot_ws/install/robot_model
+[0.026s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.123s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.129s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.185s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.189s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.189s] -- Added test 'lint_cmake' to check CMake code style
+[0.189s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.190s] -- Added test 'xmllint' to check XML markup files
+[0.192s] -- Configuring done
+[0.194s] -- Generating done
+[0.196s] -- Build files have been written to: /home/hoanglong/myrobot_ws/build/robot_model
+[0.201s] Invoked command in '/home/hoanglong/myrobot_ws/build/robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoanglong/turtlebot3_ws/install/turtlebot3_teleop:/home/hoanglong/turtlebot3_ws/install/turtlebot3_example:/home/hoanglong/my_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake /home/hoanglong/myrobot_ws/src/robot_model -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hoanglong/myrobot_ws/install/robot_model
+[0.201s] Invoking command in '/home/hoanglong/myrobot_ws/build/robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoanglong/turtlebot3_ws/install/turtlebot3_teleop:/home/hoanglong/turtlebot3_ws/install/turtlebot3_example:/home/hoanglong/my_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --build /home/hoanglong/myrobot_ws/build/robot_model -- -j2 -l2
+[0.247s] Invoked command in '/home/hoanglong/myrobot_ws/build/robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoanglong/turtlebot3_ws/install/turtlebot3_teleop:/home/hoanglong/turtlebot3_ws/install/turtlebot3_example:/home/hoanglong/my_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --build /home/hoanglong/myrobot_ws/build/robot_model -- -j2 -l2
+[0.256s] Invoking command in '/home/hoanglong/myrobot_ws/build/robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoanglong/turtlebot3_ws/install/turtlebot3_teleop:/home/hoanglong/turtlebot3_ws/install/turtlebot3_example:/home/hoanglong/my_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --install /home/hoanglong/myrobot_ws/build/robot_model
+[0.264s] -- Install configuration: ""
+[0.264s] -- Execute custom install script
+[0.264s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/config/drive_bot.rviz
+[0.265s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/config/gazebo_params.yaml
+[0.265s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/config/mapper_params_online_async.yaml
+[0.265s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/config/my_controllers.yaml
+[0.265s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/description/gazebo_control.xacro
+[0.265s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/description/inertial_macros.xacro
+[0.265s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/description/lidar.xacro
+[0.265s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/description/robot.urdf.xacro
+[0.265s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/description/robot_core.xacro
+[0.266s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/description/ros2_control.xacro
+[0.266s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/launch/comparision.py
+[0.266s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/launch/extract_trajectory.py
+[0.266s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/launch/rsp.launch.py
+[0.266s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/launch/rsp_sim.launch.py
+[0.266s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/empty.world
+[0.266s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/hospital.world
+[0.267s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/house.world
+[0.267s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1.world
+[0.267s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test1.data
+[0.267s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test1.pgm
+[0.267s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test1.posegraph
+[0.267s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test1.yaml
+[0.267s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test2.data
+[0.267s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test2.pgm
+[0.267s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test2.posegraph
+[0.267s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test2.yaml
+[0.267s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test3.data
+[0.268s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test3.pgm
+[0.268s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test3.posegraph
+[0.268s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test3.yaml
+[0.268s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test4.data
+[0.268s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test4.pgm
+[0.268s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test4.posegraph
+[0.268s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test4.yaml
+[0.268s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test5.data
+[0.268s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test5.pgm
+[0.268s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test5.posegraph
+[0.269s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test5.yaml
+[0.269s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test6.data
+[0.269s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test6.pgm
+[0.269s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test6.posegraph
+[0.269s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test6.yaml
+[0.269s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test7.data
+[0.269s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test7.pgm
+[0.269s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test7.posegraph
+[0.269s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map1_test7.yaml
+[0.269s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/map2.world
+[0.269s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/worlds/obstacle.world
+[0.270s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/ament_index/resource_index/package_run_dependencies/robot_model
+[0.270s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/ament_index/resource_index/parent_prefix_path/robot_model
+[0.270s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/environment/ament_prefix_path.sh
+[0.270s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/environment/ament_prefix_path.dsv
+[0.270s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/environment/path.sh
+[0.270s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/environment/path.dsv
+[0.271s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/local_setup.bash
+[0.271s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/local_setup.sh
+[0.271s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/local_setup.zsh
+[0.271s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/local_setup.dsv
+[0.271s] -- Symlinking: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/package.dsv
+[0.282s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/ament_index/resource_index/packages/robot_model
+[0.282s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/cmake/robot_modelConfig.cmake
+[0.283s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/cmake/robot_modelConfig-version.cmake
+[0.283s] -- Up-to-date symlink: /home/hoanglong/myrobot_ws/install/robot_model/share/robot_model/package.xml
+[0.284s] Invoked command in '/home/hoanglong/myrobot_ws/build/robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoanglong/turtlebot3_ws/install/turtlebot3_teleop:/home/hoanglong/turtlebot3_ws/install/turtlebot3_example:/home/hoanglong/my_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --install /home/hoanglong/myrobot_ws/build/robot_model
